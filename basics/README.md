@@ -1,1 +1,2 @@
-#!/bin/bash\n $ wc -1 file
+#!/bin/bash
+$ wc -1 file
