@@ -1,2 +1,2 @@
 #!/bin/bash
-resync -n .
+cp *.html
