@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -S chmod 751 /my_dir
+mkdir -S chmod 751 /my_dir
