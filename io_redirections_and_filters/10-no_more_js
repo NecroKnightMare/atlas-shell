@@ -1,2 +1,2 @@
 #!/bin/bash
-touch file1.js file2.js | rm -f .js
+touch /file1.js /file2.js | rm -f .js
