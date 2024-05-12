@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -A /etc/passwd | sort -k3 /etc/passwd
+cat /etc/passwd | sort -k3 /etc/passwd
