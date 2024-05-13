@@ -1,2 +1,2 @@
 #!/bin/bash
-alias BEST="School"
+set | grep BEST | grep -v School
