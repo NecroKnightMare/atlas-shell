@@ -3,6 +3,7 @@
 i=10
 
 while [ $i -eq 0 ]
-do echo "Best School"
+do 
+echo "Best School"
 	(( $i-1 ))
 done
