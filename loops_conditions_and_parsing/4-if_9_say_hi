@@ -2,7 +2,7 @@
 #####whil loop if statement
 i=2
 while [ $i -le 10 ]; do
-	if [ $i -eq 9 ]
+	if [ $i -eq 10 ]
 	then 
 	  echo "Hi"
 		fi
