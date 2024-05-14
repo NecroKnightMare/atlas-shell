@@ -2,7 +2,7 @@
 ##while loop printing best school ten times##
 i=10
 
-while [ $i -le 10 ]
+while [ $i -eq 0 ]
 do echo "Best School"
-	(( $i++ ))
+	(( $i-1 ))
 done
