@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-## Write good luck on line 8 and bad luck on line 4
 
 line=0
 
