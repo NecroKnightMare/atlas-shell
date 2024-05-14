@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "oo" | sort -d [[aa...zz]]
+echo {aa...zz} | grep -i "oo" | sort -d
