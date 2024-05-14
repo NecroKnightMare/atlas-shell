@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {aa...zz} | grep -i "oo" | sort -d
+echo {aa...zz} | grep -i "oo" | sort -d | head 1 | tail 64
