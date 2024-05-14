@@ -3,5 +3,5 @@
 
 lists=$(ls)
 for i in $lists; do
-	echo "$i" | ls -la
+	echo "$i" | cut -d -f2
 done
