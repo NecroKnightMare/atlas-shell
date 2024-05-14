@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 ## bad luck line 4 good luck line 8
 
-line=0
+i=0
 
-while [$line -lt 10]
+while [$i -lt 10]
 do
-  if [$line -eq 4]
+  if [$i -eq 4]
   then
     echo "bad luck"
-  elif [$line -eq 8]
+  elif [$i -eq 8]
   then
     echo "good luck"
   else 
     echo "Best School"
   fi
-  (( $line++ ))
+  (( $i++ ))
 done
