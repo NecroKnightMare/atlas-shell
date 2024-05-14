@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+##list contents of dir 
+
+lists=$(ls)
+for i in $lists; do
+	echo "$i" | ls -la
+done
