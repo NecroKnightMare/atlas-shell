@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {aa...zz} | wc -m 64 | grep -i "oo" | sort -d
+echo {aa...zz} | wc -l 64 | grep -i "oo" | sort -d
