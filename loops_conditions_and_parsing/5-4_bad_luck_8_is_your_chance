@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 ## bad luck line 4 good luck line 8
 
-i=0
+count=0
 
-while [$i -lt 10]
+while [$count -lt 10]
 do
-  if [$i -eq 4]
+  if [$count -eq 4]
   then
     echo "bad luck"
-  elif [$i -eq 8]
+  elif [$count -eq 8]
   then
     echo "good luck"
   else 
     echo "Best School"
   fi
-  (( $i++ ))
+  (( $count++ ))
 done
