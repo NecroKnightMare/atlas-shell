@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ##while loop printing best school ten times##
-i=0
+i=10
 
 while [ $i -le 10 ]
 do 
 	echo "Best School"
-	( $i+1 )
+	( $i-1 )
 done
