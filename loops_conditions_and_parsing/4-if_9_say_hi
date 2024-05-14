@@ -7,5 +7,5 @@ while [ $i -le 10 ]; do
 	  echo "Hi"
 		fi
 		echo "Best School"
-		((i+1))
+		((i++))
 	done
