@@ -2,13 +2,13 @@
 ##display hours and minutes 0-12:1-59
 
 Hour=0
-minutue=1
 
 while (( Hour <= 12 )); do
 		echo "Hour: $Hour"
-	if (( minute <= 59 )); then
+number=1
+	while (( minute <= 59 )); do
 		echo "$minute"	
 	(( minute++ ))
-	fi
-	(( Hour++ ))
+	done
+	(( Hour++ ))i
 done
