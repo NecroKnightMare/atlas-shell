@@ -4,8 +4,8 @@ number=1
 
 times=10
 
-while (( $number <= $times )); do
-	if (( $number == 9 )); then
+while (( number <= times )); do
+	if (( number == 9 )); then
 	  echo "Hi"
 	else
 	  echo "Best School"
