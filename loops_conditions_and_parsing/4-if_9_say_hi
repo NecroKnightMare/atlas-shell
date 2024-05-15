@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 #####whil loop if statement
-i=1
-while [ $i -le 10 ]; do
-	if [ $i -eq 9 ]
-	then 
+number=1
+
+times=10
+
+while (( $number <= $times )); do
+	if (( $number == 9 )); then
 	  echo "Hi"
-fi
-	echo "Best School"
-	((i++))
+	else
+	  echo "Best School"
+	fi
+	  ((number++))
 done
