@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #while loop printing best school ten times
 
-number=0
+number=1
 
 times=10
 
