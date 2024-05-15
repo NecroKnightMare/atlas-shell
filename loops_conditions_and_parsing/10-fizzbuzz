@@ -1,18 +1,14 @@
 #!/usr/bin/env bash
 ## PLD assignment Fizzbuzz
 
-for num in {1..100}
-do
-	if (( num 3 == 0 -a num 5 == 0 ))
-	then
+for i in {1..100}; do
+	if (( i % 3 == 0 && i % 5 == 0 )); then
 		echo "FizzBuzz"
-	elif (( num 3 == 0 ))
-	then
+	elif (( i % 3 == 0 )); then
 		echo "Fizz"
-	elif (( num 5 == 0 ))
-	then
+	elif (( i % 5 == 0 )); then
 		echo "Buzz"
 	else
-		echo $num
+		echo "$i"
 	fi
-done
+done | head -n 20
