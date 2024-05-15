@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 ##group Id and sort-after parsing apache log file sort data; group ID's and status
-awk '{print$1, $9}' | sort -k1,1n -k2,2n | uniq -c
+awk '{print$1, $9}' apache-access.log | sort
