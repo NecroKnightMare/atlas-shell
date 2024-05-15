@@ -11,4 +11,4 @@ for i in {1..100}; do
 	else
 		echo "$i"
 	fi
-done | head -n 20
+done | head -n 100
