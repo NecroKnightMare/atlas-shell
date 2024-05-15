@@ -2,10 +2,10 @@
 #####whil loop if statement
 number=1
 
-times=10
+times=11
 
 while (( number <= times )); do
-	if (( number == 9 )); then
+	if (( number == 10 )); then
 	  echo "Hi"
 	else
 	  echo "Best School"
