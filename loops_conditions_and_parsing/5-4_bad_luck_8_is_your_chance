@@ -1,18 +1,15 @@
 #!/usr/bin/env bash
 ## bad luck line 4 good luck line 8
 
-count=0
+number=1
 
-while [$count -le 10]
-do
-  if [$count -eq 4]
-  then
-    echo "bad luck"
-  elif [$count -eq 8]
-  then
-    echo "good luck"
-  else 
-    echo "Best School"
-  fi
-  (( $count++ ))
+while (( number <= 10 )); do
+	if (( number == 4 )); then
+		echo "bad luck"
+  	elif (( number == 8 )); then
+		echo "good luck"
+  	else 
+		echo "Best School"
+  	fi
+  		(( number++ ))
 done
