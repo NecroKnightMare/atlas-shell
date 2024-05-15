@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-##
+##group Id and sort-after parsing apache log file sort data; group ID's and status
+alog=apache-access.log file
+awk '{print $1}' "$alog" | sort -k1,1n -k2,2n | uniq -c | awk '{print $2, $1}'
